@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตกแต่ง UI</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* สีพื้นหลัง */
+            font-family: Arial, sans-serif; /* ฟอนต์ */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* ทำให้เต็มหน้าจอ */
+        }
+
+        .container {
+            background-color: #ffffff; /* สีพื้นของกล่อง */
+            padding: 20px;
+            border-radius: 15px; /* มุมกลม */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เงา */
+            text-align: center; /* จัดตำแหน่งข้อความ */
+        }
+
+        a {
+            text-decoration: none; /* ไม่ให้มีเส้นใต้ */
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin: 0 10px;
+            border-radius: 10px; /* มุมกลม */
+            transition: transform 0.2s; /* เพิ่มเอฟเฟกต์ */
+        }
+
+        img:hover {
+            transform: scale(1.05); /* ขยายเมื่อชี้ */
+        }
+
+        h1 {
+            color: #333; /* สีหัวเรื่อง */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>เลือกภาพ</h1>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="bas\profile.html">
+                <img src="image003.png" alt="รูปภาพ 1">
+            </a>
+            <a href="vy\index.html">
+                <img src="profile1.jpg" alt="รูปภาพ 2">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
